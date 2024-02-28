@@ -1,0 +1,44 @@
+.portfolio{
+    padding: 120px 0px;
+    text-align: center;
+}
+.portfolio h6{
+    font-size: 14px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #0db3c7;
+    font-weight: 600;
+    margin-bottom: 15px
+}
+.portfolio h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #040c2c;
+    text-transform: capitalize;
+}
+.portfoliocard h4{
+    color: #040c2c;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin: 25px 0px;
+    margin-left: 10px;
+}
+.portfoliocard img{
+    width: 100%;
+    height: 300px;
+}
+.portfoliocard p{
+    font-size: 14px;
+    color: rgb(99, 94, 94);
+    margin-left: 10px;
+}
+.portfoliocard {
+    text-align: start;
+    margin-top: 60px;
+}
+@media only screen and (max-width:600px) {
+    .portfolio {
+        padding: 30px 0px;
+    }
+}

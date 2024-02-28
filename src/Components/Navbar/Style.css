@@ -1,0 +1,211 @@
+.banner {
+    background-image: url("http://john.wethemez.com/static/media/banner_img.d852f421.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0px;
+}
+
+.bannerdata nav {
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    padding: 20px 0px 20px 60px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    font-size: 25px;
+    font-family: Trirong, serif;
+}
+
+.navbar-brand:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.navs li {
+    padding: 0px 20px;
+}
+
+.navbar-light .navbar-brand {
+    font-size: 28px;
+    font-family: emoji;
+    padding-left: 47px;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+.vactor img:nth-child(1) {
+    margin-top: 205px;
+    position: relative;
+    width: 237px
+}
+.vactor img:nth-child(2) {
+    margin-left: -190px;
+    width: 414px
+}
+
+
+.vactor img:nth-child(3) {
+    margin-left: -191px;
+    margin-top: 126px
+}
+
+.vactor img:nth-child(4) {
+    margin-top: -332px;
+    margin-left: -52px;
+    animation-name: floating;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.vactor img:nth-child(5) {
+    margin-top: -376px;
+    margin-left: -168px;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.vactor img:nth-child(6) {
+    margin-left: 63px;
+    margin-top: -100px;
+    animation-name: floating;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.vactor img:nth-child(7) {
+    margin-top: -123px;
+    margin-left: 46px;
+    animation-name: floating;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.vactor img {
+    padding-top: 80px;
+}
+
+.vactor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.namehead {
+    margin-top: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.namehead button {
+    background: #0db3c7;
+    border-color: #0db3c7;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 36px;
+    border-radius: 3px;
+}
+
+.namehead h1 {
+    font-weight: bold;
+    font-size: 58px;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 15px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+.active {
+    text-decoration: underline;
+    color: white;
+    font-weight: bold;
+}
+
+.active:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.for_mobile {
+    display: none;
+}
+
+@media only screen and (max-width:600px) {
+    .banner {
+        height: auto;
+    }
+
+    .for_mobile {
+        display: block;
+        background-color: #0db3c7;
+        color: white;
+    }
+
+    .for_mobile .navbar-brand {
+        color: white;
+    }
+
+    .for_mobile .navbar-toggler span {
+        color: white;
+    }
+
+    .for_mobile .navbar-nav .nav-link {
+        color: #fff;
+    }
+
+    .for_mobile .navbar-toggler {
+        background: white;
+        margin-left: 92px;
+    }
+
+    .bannerdata nav {
+        padding: 14px 0px 23px 30px
+    }
+
+    .navbar-light .navbar-brand {
+        padding-left: 0px;
+    }
+
+    .namehead h1 {
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .namehead {
+        margin-top: 100px;
+    }
+    .vactor {
+        margin-top: 6px;
+    }
+}

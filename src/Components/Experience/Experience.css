@@ -1,0 +1,87 @@
+.experience{
+    padding: 120px 0;
+    background-color: #fafafa;;
+}
+.timeline-centered {
+    position: relative;
+    margin: 40px 30px;
+}
+.timeline-centered .timeline-entry {
+    position: relative;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    clear: both;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner {
+    position: relative;
+    margin-left: -20px;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: #2c98f0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    -moz-box-shadow: 0 0 0 5px #f2f3f7;
+    -webkit-box-shadow: 0 0 0 5px #f2f3f7;
+    box-shadow: 0 0 0 5px #f2f3f7;
+    line-height: 40px;
+    float: left;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
+    position: relative;
+    background: #f2f3f7;
+    padding: 1.5em;
+    margin-left: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 9px 9px 9px 0;
+    border-color: transparent #f2f3f7 transparent transparent;
+    left: 0;
+    top: 10px;
+    margin-left: -9px;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon .icon1{
+    color: #fff;
+}
+.timeline-label h2 {
+    font-size: 20px;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-weight: 500;
+}
+.timeline-centered:before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 4px;
+    background: #f2f3f7;
+    top: 20px;
+    bottom: 20px;
+    margin-left: 29px;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
+    background: #ec5453;
+}
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-3{
+    background: #2fa499;
+}
+
+@media only screen and (max-width:600px) {
+    .experience {
+        padding: 20px 0;
+    }
+}
